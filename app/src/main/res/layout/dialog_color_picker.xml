@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <com.example.s231230.procegen.settings.colorPicker.ColorPickerView
+        android:id="@+id/colorPickerView"
+        android:layout_width="364dp"
+        android:layout_height="725dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="72dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="344dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="btnOk"
+        android:text="Ok"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="83dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="344dp"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="btnCancel"
+        android:text="Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_ok"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

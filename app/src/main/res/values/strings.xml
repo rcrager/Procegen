@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Procegen</string>
+    <string name="seekBarName">"Shapes: "</string>
+    <string name="currentPaletteText">Color Palette</string>
+</resources>
